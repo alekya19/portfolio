@@ -10,7 +10,7 @@ import Testimonials from "./components/testimonials";
 
 export default function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
       <Navbar />
       <About />
       <Projects />
