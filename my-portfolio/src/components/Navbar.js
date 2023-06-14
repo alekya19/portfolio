@@ -25,10 +25,15 @@ export default function Navbar() {
         </nav>
         <a
           href="#contact"
-          className="bg-green-500 hover:bg-green-600 inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          className="animate-bounce bg-gradient-to-t from-purple-800 via-violet-900 to-purple-800 hover:bg-green-600 inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 text-white">
           Hire Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
+        <a href="https://www.linkedin.com/in/sai-alekya/" className="animate-bounce"
+          ><img className="w-10 h-10 ml-5" alt="linkedin" src="./linkedin.svg"/></a>
+          <a href="https://github.com/alekya19/" className="animate-bounce text-white inline-flex items-center"
+          ><img className="w-10 h-10 ml-5" alt="linkedin" src="./github_git_hub_logo_icon_132878.png"/>GitHub</a>
+
       </div>
     </header>
   );

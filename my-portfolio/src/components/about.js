@@ -2,6 +2,7 @@
 
 import React from "react";
 
+
 export default function About() {
   return (
     <section id="about">
@@ -16,14 +17,14 @@ export default function About() {
           Seeking Full Stack Development Opportunities | Masters Graduate and Experienced Application Developer | Building Innovative Solutions
           </p>
           <div className="flex justify-center">
-            <a
+            <button
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              className="bg-white text-purple-600 font-semibold border-4 border-purple-600 rounded hover:bg-purple-600 hover:text-white hover:border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0 no-underline inline-flex text-white  border-0 py-2 px-6 focus:outline-none rounded text-lg">
               Work With Me
-            </a>
+            </button>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 hover:text-white rounded text-lg">
+              className="ml-6 bg-white text-purple-600 font-semibold border-4 border-purple-600 rounded hover:bg-purple-600 hover:text-white hover:border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0 no-underline inline-flex text-white  border-0 py-2 px-4 focus:outline-none rounded text-lg">
               See My Past Work
             </a>
           </div>
@@ -32,7 +33,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./undraw_experience_design.png"
+            src="./fullstack-removebg-preview.png"
           />
         </div>
       </div>
