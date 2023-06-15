@@ -21,7 +21,7 @@ export const projects = [
     description:
       "The social media dashboard with a theme switcher is a dynamic web application built with HTML, CSS, and JavaScript. It allows users to manage their social media accounts and switch between different visual themes. The dashboard displays real-time social media metrics and provides features like task management. It offers a personalized and visually appealing theme switcher experience for effective social media management using dashboard and analysis.",
     image: "./social_media_demo1.gif",
-    link: "https://jsbootcamp.com",
+    link: "https://alekya-social-media-dashboard.netlify.app/",
   },
   {
     title: "Epic Todo App",
@@ -29,7 +29,7 @@ export const projects = [
     description:
       "The ReactJS Todo App is a simple yet powerful task management application. With this app, users can effortlessly add and delete tasks to keep track of their to-do lists. The intuitive user interface allows for quick and seamless task entry, while the delete function ensures easy removal of completed or unnecessary tasks. This minimalist and efficient ReactJS Todo App provides a streamlined solution for organizing and managing tasks effectively.",
     image: "./todo_app_demo.gif",
-    link: "https://pythonbootcamp.com",
+    link: "https://alekya-to-do-app.netlify.app/",
   },
 ];
 
