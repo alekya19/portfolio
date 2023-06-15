@@ -23,6 +23,7 @@ export default function Navbar() {
             Achievements
           </a>
         </nav>
+        <div className="flex flex-row m-5 ">
         <a
           href="#contact"
           className="animate-bounce bg-gradient-to-t from-purple-800 via-violet-900 to-purple-800 hover:bg-green-600 inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 text-white">
@@ -33,7 +34,7 @@ export default function Navbar() {
           ><img className="w-10 h-10 ml-5" alt="linkedin" src="./linkedin.svg"/></a>
           <a href="https://github.com/alekya19/" className="animate-bounce text-white inline-flex items-center"
           ><img className="w-10 h-10 ml-5" alt="linkedin" src="./github_git_hub_logo_icon_132878.png"/>GitHub</a>
-
+</div>
       </div>
     </header>
   );
